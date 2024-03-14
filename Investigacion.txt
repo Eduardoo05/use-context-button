@@ -1,0 +1,3 @@
+// En EstadoResult por que dentro de onClick es necesario una funcion anonima
+<input type="button" onClick={()=>setContextData(contexData + 1)} value='Sumar'/>
+
